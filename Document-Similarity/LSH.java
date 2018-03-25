@@ -1,7 +1,3 @@
-/**
- * Created by Prachi Patel
- * and Rahul Singh
- */
 
 
 import java.util.ArrayList;
@@ -37,7 +33,7 @@ public class LSH {
 	
 	public static void main(String[]  args)
 	{
-		MinHash minHash=new MinHash("/Users/rahulsn/eclipse-workspace/MinHash/src/F17PA2", 800);
+		MinHash minHash=new MinHash("./", 800);
 		System.out.println("After MinHash");
 		int[][] minHashMat = minHash.minHashMatrix;
 		System.out.println("After MinshAshMat");
@@ -102,7 +98,7 @@ public class LSH {
 						}
 					}
 					else {
-							names = new ArrayList<String>();
+				
 							names.add(docNames[i]);
 							tmpTable.put(hashValue, names);
 							hashTables.add(tmpTable);

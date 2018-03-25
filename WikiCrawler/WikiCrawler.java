@@ -1,7 +1,3 @@
-/**
- * @author Rahul Singh 
- * @author Prachi Patel
- */
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

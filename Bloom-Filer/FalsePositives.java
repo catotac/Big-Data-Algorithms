@@ -1,9 +1,4 @@
 
-/**
-* @author Rahul Singh
-* @author Prachi Patel
-*/
-
 import java.util.Random;
 import java.util.*;
 import java.lang.*;

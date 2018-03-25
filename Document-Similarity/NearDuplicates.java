@@ -1,7 +1,3 @@
-/**
- * @author Prachi Patel
- * @author Rahul Singh
- */
 
 
 import java.util.ArrayList;

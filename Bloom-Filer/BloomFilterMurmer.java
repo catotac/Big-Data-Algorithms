@@ -1,7 +1,3 @@
-/**
-* @author Rahul Singh
-* @author Prachi Patel
-*/
 
 import java.util.BitSet;
 import java.nio.ByteBuffer;
